@@ -1,0 +1,21 @@
+@import './blocks/app.scss';
+@import './blocks/form.scss';
+@import './blocks/button.scss';
+@import './blocks/repos.scss';
+
+* {
+  box-sizing: border-box;
+}
+
+body, h1, ul,p {
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}

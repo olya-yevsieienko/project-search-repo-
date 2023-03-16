@@ -1,0 +1,35 @@
+.repos {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 20px;
+
+  &__repo {
+    margin-bottom: 20px;
+    padding: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 340px;
+    background-color: #a4a4a4;
+    border: 1px solid #292929;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 8px;
+  }
+
+  &__header {
+    margin-right: 32px;
+  }
+
+  &__avatar {
+    margin-bottom: 8px;
+    height: 30px;
+    width: 30px;
+  }
+
+  &__link {
+    &:hover {
+      font-weight: bold;
+    }
+  }
+}
